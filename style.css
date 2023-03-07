@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    background: linear-gradient(to right, rgb(239, 244, 246), rgb(89, 182, 187));
+    display: block;
+    box-sizing: border-box;
+    /* justify-content: center; */
+    align-items: center;
+    justify-items: center;
+    /* text-align: center; */
+    width: 80%;
+    height: 95vh;
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+h1,label{
+    margin: 20px;
+    margin-bottom: 15px;
+
+}
+
+input, textarea{
+    background-color: white;
+    width: 95%;
+    height: 55%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+button{
+    margin-left: 20px;
+    position: absolute;
+    /* color: #ffffff; */
+    width: 5em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #03a9f4, #f441a5,#ffeb3b, #03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button:hover{
+    animation: animation 7s linear infinite;
+}
+@keyframes animation{
+    0% {
+        background-position: 0%;
+    }
+
+    50%{ 
+        background-position: 400%;
+    }
+}
+

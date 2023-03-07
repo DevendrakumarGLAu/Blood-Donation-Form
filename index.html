@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloodDonationForm</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+            <form action="">
+                <h1>User Record List</h1>
+
+                <label for="username">Username</label><br>
+                <input type="text" name="username" id="username" placeholder="Enter your username"><br>
+                <!-- <small>Your name must be 2-10 characters long and not start with a letter</small><br> -->
+
+                <label for="emailId">Email address</label><br>
+                <input type="text" name="emailId" id="emailId" placeholder="Enter your email"><br>
+
+                <Label>Select Your blood group</Label>
+                
+                <select name="bloodgroup" id="bloodgroup">
+                
+                    <option value="">A+</option>
+                    <option value="">B+</option>
+                    <option value="">AB+</option>
+                    <option value="">O+</option>
+                    <option value="">A-</option>
+                    <option value="">AB-</option>
+                    <option value="">O-</option>
+                </select>
+                <br><br>
+                <label for="address">Enter your address</label><br>
+                <textarea name="address" id="address" cols="30" rows="5"></textarea><br>
+                
+                <label for="mobile">Enter your phone number</label><br>
+                <input type="tel" name="mobile" id="mobile" value="+91" ><br>
+
+                <label for="other">Any other details regarding your medical health</label><br>
+                <textarea name="address" id="address" cols="30" rows="5"></textarea><br>
+
+                <button type="submit" id="submit">Submit</button>
+
+            </form>
+        </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
